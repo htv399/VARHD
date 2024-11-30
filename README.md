@@ -1,6 +1,7 @@
 # Historical Variance Decomposition VAR Model
 
 ## Parameters
+
 def extract_VAR_parameters(results, data, endog_var, exog_var=None, nlag_ex=0):
     sigma = results.sigma_u
     coefs = results.coefs
